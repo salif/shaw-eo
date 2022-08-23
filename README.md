@@ -1,15 +1,23 @@
-## Esperanto (Shavian) keyboard layout
+# Esperanto \(Shavian\) keyboard layout
+
+In other languages: [Esperanto](README.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](README.eo_shaw.md)
+
+---
 
 ### QWERTY
 
-![preview esperanto qwerty](preview_qwerty.png)
+![preview esperanto shavian qwerty](preview_qwerty.png)
 
 ### Colemak
 
-![preview esperanto colemak](preview_colemak.png)
+![preview esperanto shavian colemak](preview_colemak.png)
 
 ## Install on Linux
 
-See [LINUX_QWERTY.md](./LINUX_QWERTY.md) for QWERTY
+### QWERTY
 
-See [LINUX_COLEMAK.md](./LINUX_COLEMAK.md) for Colemak
+See [LINUX.md](./LINUX.md#qwerty) for QWERTY
+
+### Colemak
+
+See [LINUX.md](./LINUX.md#colemak) for Colemak
