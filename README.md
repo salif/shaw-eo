@@ -6,18 +6,49 @@ In other languages: [Esperanto](README.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐�
 
 ### QWERTY
 
-![preview esperanto shavian qwerty](preview_qwerty.png)
+![preview esperanto shavian qwerty](./media/preview_qwerty.png)
 
 ### Colemak
 
-![preview esperanto shavian colemak](preview_colemak.png)
+![preview esperanto shavian colemak](./media/preview_colemak.png)
 
-## Install on Linux
+## Links
 
-### QWERTY
+* Homepage: [salif.github.io/shaw_eo](https://salif.github.io/shaw_eo/)
+* Source code: [github.com/salif/shaw_eo](https://github.com/salif/shaw_eo)
+* Source code: [codeberg.org/salif/shaw_eo](https://codeberg.org/salif/shaw_eo)
+* Issues \(Github\): [github.com/salif/shaw_eo/issues](https://github.com/salif/shaw_eo/issues)
+* Issues \(Codeberg\): [codeberg.org/salif/shaw_eo/issues](https://codeberg.org/salif/shaw_eo/issues)
+* Element/Matrix chat: [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+
+## Installing
+
+### Install on Linux
+
+#### QWERTY
 
 See [LINUX.md](./LINUX.md#qwerty) for QWERTY
 
-### Colemak
+#### Colemak
 
 See [LINUX.md](./LINUX.md#colemak) for Colemak
+
+## Contributing
+
+### Report a bug
+
+Check [the list of open issues](#links) to see if your bug has already been reported.
+
+If it hasn't, submit a new issue.
+
+### Suggest a feature
+
+[Open an issue](#links) which describes the feature.
+
+### Code
+
+I accept pull requests at Github and Codeberg.
+
+## License
+
+See [LICENSE](./LICENSE).

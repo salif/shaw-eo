@@ -6,11 +6,11 @@
 
 ### QWERTY
 
-![𐑨𐑵𐑑𐑨𐑘𐑮𐑦𐑜𐑨𐑮𐑛𐑪 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩 𐑖𐑨𐑝𐑨 qwerty](preview_qwerty.png)
+![𐑨𐑵𐑑𐑨𐑘𐑮𐑦𐑜𐑨𐑮𐑛𐑪 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩 𐑖𐑨𐑝𐑨 qwerty](./media/preview_qwerty.png)
 
 ### Colemak
 
-![𐑨𐑵𐑑𐑨𐑘𐑮𐑦𐑜𐑨𐑮𐑛𐑪 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩 𐑖𐑨𐑝𐑨 colemak](preview_colemak.png)
+![𐑨𐑵𐑑𐑨𐑘𐑮𐑦𐑜𐑨𐑮𐑛𐑪 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩 𐑖𐑨𐑝𐑨 colemak](./media/preview_colemak.png)
 
 ## 𐑦𐑵𐑕𐑑𐑨𐑤𐑦 𐑧𐑵 𐑤𐑦𐑵𐑪𐑒𐑕𐑩
 

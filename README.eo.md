@@ -6,11 +6,11 @@ En aliaj lingvoj: [English](README.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮�
 
 ### QWERTY
 
-![antaŭrigardu esperanto ŝava qwerty](preview_qwerty.png)
+![antaŭrigardu esperanto ŝava qwerty](./media/preview_qwerty.png)
 
 ### Colemak
 
-![antaŭrigardu esperanto ŝava colemak](preview_colemak.png)
+![antaŭrigardu esperanto ŝava colemak](./media/preview_colemak.png)
 
 ## Instali en Linukso
 

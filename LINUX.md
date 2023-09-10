@@ -6,6 +6,13 @@ In other languages: [Esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧
 
 ## QWERTY
 
+First, backup some files. Run these commands:
+
+```
+cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+
 Open `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file
 
 ```
@@ -67,7 +74,27 @@ Then add `Esperanto (Shavian)` via the settings of your desktop environment
 
 If unsuccessful, submit an issue to this git repository at [GitHub.com](https://github.com/salif/shaw_eo/issues/new/choose)
 
+### Uninstall
+
+To uninstall undo everything you did or restore old files:
+
+```
+mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```
+
+### Update
+
+Uninstall the old version and install the new version
+
 ## Colemak
+
+First, backup some files. Run these commands:
+
+```
+cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
 
 Open `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file
 
@@ -129,3 +156,16 @@ Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block af
 Then add `Esperanto (Shavian Colemak)` via the settings of your desktop environment
 
 If unsuccessful, submit an issue to this git repository at [GitHub.com](https://github.com/salif/shaw_eo/issues/new/choose)
+
+### Uninstall
+
+To uninstall undo everything you did or restore old files:
+
+```
+mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```
+
+### Update
+
+Uninstall the old version and install the new version
