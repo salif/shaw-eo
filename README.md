@@ -1,4 +1,4 @@
-# Esperanto \(Shavian\) keyboard layout
+# Esperanto (Shavian) keyboard layout
 
 In other languages: [Esperanto](README.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](README.eo_shaw.md)
 
@@ -17,9 +17,9 @@ In other languages: [Esperanto](README.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐�
 * Homepage: [salif.github.io/shaw_eo](https://salif.github.io/shaw_eo/)
 * Source code: [github.com/salif/shaw_eo](https://github.com/salif/shaw_eo)
 * Source code: [codeberg.org/salif/shaw_eo](https://codeberg.org/salif/shaw_eo)
-* Issues \(Github\): [github.com/salif/shaw_eo/issues](https://github.com/salif/shaw_eo/issues)
-* Issues \(Codeberg\): [codeberg.org/salif/shaw_eo/issues](https://codeberg.org/salif/shaw_eo/issues)
-* Element/Matrix chat: [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* Issues (Github): [github.com/salif/shaw_eo/issues](https://github.com/salif/shaw_eo/issues)
+* Issues (Codeberg): [codeberg.org/salif/shaw_eo/issues](https://codeberg.org/salif/shaw_eo/issues)
+* Chat (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Installing
 

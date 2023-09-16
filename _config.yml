@@ -1,11 +1,21 @@
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-name: Esperanto (Shavian)
-title: null
+title: Esperanto Shavian
 description: Esperanto Shavian keyboard layout
 repository: salif/shaw_eo
 
 author:
   name: Salif Mehmed
   url: https://salif.eu
+
+defaults:
+  - scope:
+      path: "*.eo_shaw.md"
+    values:
+      lang: "eo"
+  - scope:
+      path: "*.eo.md"
+    values:
+      lang: "eo"
