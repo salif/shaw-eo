@@ -1,6 +1,6 @@
 # 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩 𐑖𐑨𐑝𐑦𐑨𐑵 𐑒𐑤𐑨𐑝𐑨𐑮𐑨𐑵 𐑨𐑮𐑨𐑵𐑡𐑩𐑵
 
-𐑑𐑮𐑨𐑛𐑪𐑒𐑩: [esperanto](LINUX.eo.md), [english](README.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [português](README.pt.md), [русский](README.ru.md), [bahasa](README.id.md), [türkçe](README.tr.md), [български](README.bg.md)
+𐑑𐑮𐑨𐑛𐑪𐑒𐑩: [english](README.md), [esperanto](README.eo.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [português](README.pt.md), [русский](README.ru.md), [bahasa](README.id.md), [türkçe](README.tr.md), [български](README.bg.md)
 
 ### QWERTY
 

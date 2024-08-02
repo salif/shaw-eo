@@ -1,6 +1,6 @@
 # 𐑦𐑵𐑕𐑑𐑨𐑤𐑨𐑛𐑩 𐑧𐑵 𐑤𐑦𐑵𐑪𐑒𐑕𐑩
 
-𐑑𐑮𐑨𐑛𐑪𐑒𐑩: [esperanto](LINUX.eo.md), [english](LINUX.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
+𐑑𐑮𐑨𐑛𐑪𐑒𐑩: [english](LINUX.md), [esperanto](LINUX.eo.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
 
 ---
 
