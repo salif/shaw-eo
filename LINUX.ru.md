@@ -1,25 +1,25 @@
-# Installing on Linux
+# Установка в Linux
 
-Translation: [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
+Перевод: [english](LINUX.md), [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
 
 ---
 
-I am not an expert in installing keyboard layouts, these instructions may not work for all Linux users.
+Я не эксперт в установке раскладок клавиатуры, эти инструкции могут подойти не всем пользователям Linux.
 
-## Follow these instructions
+## Следуйте этим инструкциям
 
 ### QWERTY
 
-**1.** First, backup some files by running these commands:
+**1.** Сначала создайте резервную копию некоторых файлов, выполнив эти команды:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+Если вы получили сообщение об ошибке, сначала запустите эту команду: `su -l root`, затем попробуйте выполнить команды еще раз или замените `cp` на `sudo cp`.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** Открыть файл `/usr/share/X11/xkb/symbols/epo` и добавьте следующий текстовый блок в конец файла:
 
 ```
 // github.com/salif/shaw-eo
@@ -65,7 +65,7 @@ xkb_symbols "shaw_eo" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** Открыть файл `/usr/share/X11/xkb/rules/evdev.xml` и вставьте следующий текстовый блок после варианта `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -76,33 +76,33 @@ xkb_symbols "shaw_eo" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian)` via the settings of your desktop environment.
+**4.** Затем добавьте `Esperanto (Shavian)` через настройки среды рабочего стола.
 
-#### Uninstalling
+#### Удаление
 
-To uninstall restore the old files or undo everything you did:
+Чтобы удалить, восстановите старые файлы или отмените все, что вы сделали:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### Обновление
 
-Uninstall the old version and install the new version.
+Удалите старую версию и установите новую версию.
 
 ### Colemak
 
-**1.** First, backup some files by running these commands:
+**1.** Сначала создайте резервную копию некоторых файлов, выполнив эти команды:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+Если вы получили сообщение об ошибке, сначала запустите эту команду: `su -l root`, затем попробуйте выполнить команды еще раз или замените `cp` на `sudo cp`.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** Открыть файл `/usr/share/X11/xkb/symbols/epo` и добавьте следующий текстовый блок в конец файла:
 
 ```
 // github.com/salif/shaw-eo
@@ -148,7 +148,7 @@ xkb_symbols "shaw_eo_colemak" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** Открыть файл `/usr/share/X11/xkb/rules/evdev.xml` и вставьте следующий текстовый блок после варианта `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -159,25 +159,25 @@ xkb_symbols "shaw_eo_colemak" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian Colemak)` via the settings of your desktop environment.
+**4.** Затем добавьте `Esperanto (Shavian Colemak)` через настройки среды рабочего стола.
 
-#### Uninstalling
+#### Удаление
 
-To uninstall restore the old files or undo everything you did:
+Чтобы удалить, восстановите старые файлы или отмените все, что вы сделали:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### Обновление
 
-Uninstall the old version and install the new version.
-
----
-
-This page contains automatically translated text
+Удалите старую версию и установите новую версию.
 
 ---
 
-[← Back](./README.md)
+Эта страница содержит автоматически переведенный текст
+
+---
+
+[← Назад](./README.ru.md)

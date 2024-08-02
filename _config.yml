@@ -2,20 +2,141 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-title: Esperanto Shavian
-description: Esperanto Shavian keyboard layout
-repository: salif/shaw_eo
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "justfile"
+  - "*.all.md"
+  - "*.all.json"
+
+title: "Esperanto Shavian"
+lang: "en"
+baseurl: "/shaw-eo"
+repository: "salif/shaw-eo"
 
 author:
-  name: Salif Mehmed
-  url: https://salif.eu
+  name: "Salif Mehmed"
+  url: "https://salif.eu"
 
 defaults:
   - scope:
-      path: "*.eo_shaw.md"
+      path: "README.eo_shaw.md"
     values:
-      lang: "eo"
+      lang: "eo-Shaw"
+      description: "𐑢𐑧𐑵 𐑫𐑦𐑨 𐑐𐑮𐑩𐑝𐑩 𐑓𐑨𐑮𐑦 𐑒𐑤𐑨𐑝𐑨𐑮𐑨𐑵 𐑨𐑮𐑨𐑵𐑡𐑩𐑢𐑵 𐑚𐑨𐑟𐑦𐑑𐑨𐑢𐑵 𐑕𐑪𐑮 QWERTY 𐑒𐑨𐑢 Colemak, 𐑨𐑛𐑨𐑐𐑑𐑦𐑑𐑨𐑢𐑵 𐑐𐑩𐑮 𐑤𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑨 𐑖𐑨𐑝𐑨 𐑨𐑤𐑓𐑨𐑚𐑧𐑑𐑩."
+      image: "./media/preview_qwerty.png"
   - scope:
-      path: "*.eo.md"
+      path: "LINUX.eo_shaw.md"
+    values:
+      lang: "eo-Shaw"
+      description: "𐑕𐑧𐑒𐑝𐑪 𐑗𐑦 𐑑𐑦𐑪𐑢𐑵 𐑦𐑵𐑕𐑑𐑮𐑪𐑒𐑔𐑦𐑩𐑢𐑵"
+  - scope:
+      path: "README.eo.md"
     values:
       lang: "eo"
+      description: "Jen mia provo fari klavaran aranĝojn bazitajn sur QWERTY kaj Colemak, adaptitajn por la Esperanta Ŝava alfabeto"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.zh-CN.md"
+    values:
+      lang: "zh-CN"
+      description: "这是我尝试制作基于 QWERTY 和 Colemak 的键盘布局，并适应世界语 Shavian 字母表"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.es.md"
+    values:
+      lang: "es"
+      description: "Este es mi intento de crear diseños de teclado basados ​​en QWERTY y Colemak, adaptados al alfabeto esperanto Shavian"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.ar.md"
+    values:
+      lang: "ar"
+      description: "هذه هي محاولتي لإنشاء تخطيطات للوحة المفاتيح تعتمد على QWERTY وColemak، مع تكييفها مع أبجدية الإسبرانتو الشافيانية"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.pt.md"
+    values:
+      lang: "pt"
+      description: "Esta é minha tentativa de fazer layouts de teclado baseados em QWERTY e Colemak, adaptados para o alfabeto Esperanto Shavian"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.ru.md"
+    values:
+      lang: "ru"
+      description: "Это моя попытка сделать раскладки клавиатуры на основе QWERTY и Colemak, адаптированные под эсперанто-шавианский алфавит"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.id.md"
+    values:
+      lang: "id"
+      description: "Ini adalah upaya saya membuat layout keyboard berdasarkan QWERTY dan Colemak, yang diadaptasi untuk alfabet Esperanto Shavian"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.tr.md"
+    values:
+      lang: "tr"
+      description: "Bu, Esperanto Şavi alfabesine uyarlanmış, QWERTY ve Colemak'ı temel alan klavye düzenleri yapma girişimimdir"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.bg.md"
+    values:
+      lang: "bg"
+      description: "Това е моят опит да направя клавиатурни подредби, базирани на QWERTY и Colemak, адаптирани за есперантската шавианска азбука"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "README.md"
+    values:
+      lang: "en"
+      description: "This is my attempt to make keyboard layouts based on QWERTY and Colemak, adapted for the Esperanto Shavian alphabet"
+      image: "./media/preview_qwerty.png"
+  - scope:
+      path: "LINUX.eo.md"
+    values:
+      lang: "eo"
+      description: "Sekvu ĉi tiujn instrukciojn"
+  - scope:
+      path: "LINUX.zh-CN.md"
+    values:
+      lang: "zh-CN"
+      description: "请遵循这些说明"
+  - scope:
+      path: "LINUX.es.md"
+    values:
+      lang: "es"
+      description: "Siga estas instrucciones"
+  - scope:
+      path: "LINUX.ar.md"
+    values:
+      lang: "ar"
+      description: "اتبع هذه التعليمات"
+  - scope:
+      path: "LINUX.pt.md"
+    values:
+      lang: "pt"
+      description: "Siga estas instruções"
+  - scope:
+      path: "LINUX.ru.md"
+    values:
+      lang: "ru"
+      description: "Следуйте этим инструкциям"
+  - scope:
+      path: "LINUX.id.md"
+    values:
+      lang: "id"
+      description: "Ikuti petunjuk ini"
+  - scope:
+      path: "LINUX.tr.md"
+    values:
+      lang: "tr"
+      description: "Bu talimatları izleyin"
+  - scope:
+      path: "LINUX.bg.md"
+    values:
+      lang: "bg"
+      description: "Следвайте тези инструкции"
+  - scope:
+      path: "LINUX.md"
+    values:
+      lang: "en"
+      description: "Follow these instructions"

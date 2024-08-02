@@ -1,25 +1,25 @@
-# Installing on Linux
+# 在 Linux 上安装
 
-Translation: [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
+翻译： [english](LINUX.md), [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
 
 ---
 
-I am not an expert in installing keyboard layouts, these instructions may not work for all Linux users.
+我不是安装键盘布局的专家，这些说明可能不适用于所有 Linux 用户.
 
-## Follow these instructions
+## 请遵循这些说明
 
 ### QWERTY
 
-**1.** First, backup some files by running these commands:
+**1.** 首先，通过运行这些命令备份一些文件:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+如果出现错误，请首先运行以下命令： `su -l root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** 打开文件 `/usr/share/X11/xkb/symbols/epo` 并将以下文本块附加到文件末尾:
 
 ```
 // github.com/salif/shaw-eo
@@ -65,7 +65,7 @@ xkb_symbols "shaw_eo" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** 打开文件 `/usr/share/X11/xkb/rules/evdev.xml` 并在变体后面插入以下文本块 `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -76,33 +76,33 @@ xkb_symbols "shaw_eo" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian)` via the settings of your desktop environment.
+**4.** 然后加 `Esperanto (Shavian)` 通过桌面环境的设置.
 
-#### Uninstalling
+#### 正在卸载
 
-To uninstall restore the old files or undo everything you did:
+要卸载，请恢复旧文件或撤消您所做的一切:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### 正在更新
 
-Uninstall the old version and install the new version.
+卸载旧版本并安装新版本.
 
 ### Colemak
 
-**1.** First, backup some files by running these commands:
+**1.** 首先，通过运行这些命令备份一些文件:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+如果出现错误，请首先运行以下命令： `su -l root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** 打开文件 `/usr/share/X11/xkb/symbols/epo` 并将以下文本块附加到文件末尾:
 
 ```
 // github.com/salif/shaw-eo
@@ -148,7 +148,7 @@ xkb_symbols "shaw_eo_colemak" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** 打开文件 `/usr/share/X11/xkb/rules/evdev.xml` 并在变体后面插入以下文本块 `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -159,25 +159,25 @@ xkb_symbols "shaw_eo_colemak" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian Colemak)` via the settings of your desktop environment.
+**4.** 然后加 `Esperanto (Shavian Colemak)` 通过桌面环境的设置.
 
-#### Uninstalling
+#### 正在卸载
 
-To uninstall restore the old files or undo everything you did:
+要卸载，请恢复旧文件或撤消您所做的一切:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### 正在更新
 
-Uninstall the old version and install the new version.
-
----
-
-This page contains automatically translated text
+卸载旧版本并安装新版本.
 
 ---
 
-[← Back](./README.md)
+此页面包含自动翻译的文本
+
+---
+
+[← 返回](./README.zh-CN.md)

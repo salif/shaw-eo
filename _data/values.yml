@@ -1,0 +1,30 @@
+"bg":
+  footer_os: "Този сайт е с отворен код."
+  footer_im: "Подобрете тази страница"
+"eo":
+  footer_os: "Ĉi tiu retejo estas malfermita fonto."
+  footer_im: "Plibonigu ĉi tiun paĝon"
+"eo-Shaw":
+  footer_os: "𐑗𐑦 𐑑𐑦𐑪 𐑮𐑧𐑑𐑧𐑢𐑩 𐑧𐑕𐑑𐑨𐑕 𐑫𐑨𐑤𐑓𐑧𐑮𐑫𐑦𐑑𐑨 𐑓𐑩𐑵𐑑𐑩."
+  footer_im: "𐑐𐑤𐑦𐑚𐑩𐑵𐑦𐑜𐑪 𐑗𐑦 𐑑𐑦𐑪𐑵 𐑐𐑨𐑡𐑩𐑵"
+"tr":
+  footer_os: "Bu site açık kaynaktır."
+  footer_im: "Bu sayfayı geliştirin"
+"zh-CN":
+  footer_os: "该网站是开源的。"
+  footer_im: "改进此页面"
+"es":
+  footer_os: "Este sitio es de código abierto."
+  footer_im: "Mejorar esta página"
+"ar":
+  footer_os: "هذا الموقع مفتوح المصدر."
+  footer_im: "تحسين هذه الصفحة"
+"pt":
+  footer_os: "Este site é de código aberto."
+  footer_im: "Melhorar esta página"
+"ru":
+  footer_os: "Этот сайт с открытым исходным кодом."
+  footer_im: "Улучшить эту страницу"
+"id":
+  footer_os: "Situs ini bersifat open source."
+  footer_im: "Perbaiki halaman ini"

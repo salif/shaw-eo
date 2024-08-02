@@ -1,25 +1,25 @@
-# Installing on Linux
+# التثبيت على لينكس
 
-Translation: [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
+ترجمة: [english](LINUX.md), [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
 
 ---
 
-I am not an expert in installing keyboard layouts, these instructions may not work for all Linux users.
+أنا لست خبيرًا في تثبيت تخطيطات لوحة المفاتيح، وقد لا تعمل هذه التعليمات مع جميع مستخدمي Linux.
 
-## Follow these instructions
+## اتبع هذه التعليمات
 
 ### QWERTY
 
-**1.** First, backup some files by running these commands:
+**1.** أولاً، قم بعمل نسخة احتياطية لبعض الملفات عن طريق تشغيل هذه الأوامر:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+إذا حصلت على خطأ، قم أولاً بتشغيل هذا الأمر: `su -l root`, ثم حاول تشغيل الأوامر مرة أخرى، أو استبدل `cp` بـ`sudo cp`.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** افتح الملف `/usr/share/X11/xkb/symbols/epo` وقم بإلحاق الكتلة النصية التالية في نهاية الملف:
 
 ```
 // github.com/salif/shaw-eo
@@ -65,7 +65,7 @@ xkb_symbols "shaw_eo" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** افتح الملف `/usr/share/X11/xkb/rules/evdev.xml` وأدخل الكتلة النصية التالية بعد المتغير `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -76,33 +76,33 @@ xkb_symbols "shaw_eo" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian)` via the settings of your desktop environment.
+**4.** ثم أضف `Esperanto (Shavian)` من خلال إعدادات بيئة سطح المكتب لديك.
 
-#### Uninstalling
+#### إلغاء التثبيت
 
-To uninstall restore the old files or undo everything you did:
+لإلغاء التثبيت، قم باستعادة الملفات القديمة أو التراجع عن كل ما قمت به:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### تحديث
 
-Uninstall the old version and install the new version.
+قم بإلغاء تثبيت الإصدار القديم وتثبيت الإصدار الجديد.
 
 ### Colemak
 
-**1.** First, backup some files by running these commands:
+**1.** أولاً، قم بعمل نسخة احتياطية لبعض الملفات عن طريق تشغيل هذه الأوامر:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+إذا حصلت على خطأ، قم أولاً بتشغيل هذا الأمر: `su -l root`, ثم حاول تشغيل الأوامر مرة أخرى، أو استبدل `cp` بـ`sudo cp`.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** افتح الملف `/usr/share/X11/xkb/symbols/epo` وقم بإلحاق الكتلة النصية التالية في نهاية الملف:
 
 ```
 // github.com/salif/shaw-eo
@@ -148,7 +148,7 @@ xkb_symbols "shaw_eo_colemak" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** افتح الملف `/usr/share/X11/xkb/rules/evdev.xml` وأدخل الكتلة النصية التالية بعد المتغير `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -159,25 +159,25 @@ xkb_symbols "shaw_eo_colemak" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian Colemak)` via the settings of your desktop environment.
+**4.** ثم أضف `Esperanto (Shavian Colemak)` من خلال إعدادات بيئة سطح المكتب لديك.
 
-#### Uninstalling
+#### إلغاء التثبيت
 
-To uninstall restore the old files or undo everything you did:
+لإلغاء التثبيت، قم باستعادة الملفات القديمة أو التراجع عن كل ما قمت به:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### تحديث
 
-Uninstall the old version and install the new version.
-
----
-
-This page contains automatically translated text
+قم بإلغاء تثبيت الإصدار القديم وتثبيت الإصدار الجديد.
 
 ---
 
-[← Back](./README.md)
+تحتوي هذه الصفحة على نص مترجم تلقائيًا
+
+---
+
+[← العودة](./README.ar.md)

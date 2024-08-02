@@ -1,15 +1,28 @@
-# Instali en Linukso
+# Instalado en Linukso
 
-En aliaj lingvoj: [English](LINUX.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md)
+Traduko: [english](LINUX.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
 
 ---
 
-## QWERTY
+Mi ne estas sperta pri instalado de klavaraj aranĝoj, ĉi tiuj instrukcioj eble ne funkcias por ĉiuj uzantoj de Linukso.
 
-Malfermu `/usr/share/X11/xkb/symbols/epo` kaj aldonu la sekvan tekstoblokon al la fino de la dosiero
+## Sekvu ĉi tiujn instrukciojn
+
+### QWERTY
+
+**1.** Unue, sekurigu iujn dosierojn rulante ĉi tiujn komandojn:
+
+```bash
+cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+
+Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su -l root`, tiam provu ruli la komandojn denove, aŭ anstataŭigu `cp` per `sudo cp`.
+
+**2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/epo` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
-// github.com/salif/shaw_eo
+// github.com/salif/shaw-eo
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -52,9 +65,9 @@ xkb_symbols "shaw_eo" {
 };
 ```
 
-Malfermu `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Esperanto (legacy)`
+**3.** Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Esperanto (legacy)`:
 
-```
+```xml
 <variant>
   <configItem>
     <name>shaw_eo</name>
@@ -63,16 +76,36 @@ Malfermu `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon p
 </variant>
 ```
 
-Poste aldonu `Esperanto (Shavian)` per la agordoj de via fenestrilo \(DE\)
+**4.** Poste aldonu `Esperanto (Shavian)` per la agordoj de via labortabla medio.
 
-Se malsukcese, sendu problemon \(issue\) al ĉi tiu git deponejo ĉe [GitHub.com](https://github.com/salif/shaw_eo/issues/new/choose)
+#### Malinstalado
 
-## Colemak
+Por malinstali restarigi la malnovajn dosierojn aŭ malfari ĉion, kion vi faris:
 
-Malfermu `/usr/share/X11/xkb/symbols/epo` kaj aldonu la sekvan tekstoblokon al la fino de la dosiero
+```bash
+mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```
+
+#### Ĝisdatigo
+
+Malinstalu la malnovan version kaj instalu la novan version.
+
+### Colemak
+
+**1.** Unue, sekurigu iujn dosierojn rulante ĉi tiujn komandojn:
+
+```bash
+cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+
+Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su -l root`, tiam provu ruli la komandojn denove, aŭ anstataŭigu `cp` per `sudo cp`.
+
+**2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/epo` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
-// github.com/salif/shaw_eo
+// github.com/salif/shaw-eo
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -115,9 +148,9 @@ xkb_symbols "shaw_eo_colemak" {
 };
 ```
 
-Malfermu `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Esperanto (legacy)`
+**3.** Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Esperanto (legacy)`:
 
-```
+```xml
 <variant>
   <configItem>
     <name>shaw_eo_colemak</name>
@@ -126,6 +159,25 @@ Malfermu `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon p
 </variant>
 ```
 
-Poste aldonu `Esperanto (Shavian Colemak)` per la agordoj de via fenestrilo \(DE\)
+**4.** Poste aldonu `Esperanto (Shavian Colemak)` per la agordoj de via labortabla medio.
 
-Se malsukcese, sendu problemon \(issue\) al ĉi tiu git deponejo ĉe [GitHub.com](https://github.com/salif/shaw_eo/issues/new/choose)
+#### Malinstalado
+
+Por malinstali restarigi la malnovajn dosierojn aŭ malfari ĉion, kion vi faris:
+
+```bash
+mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```
+
+#### Ĝisdatigo
+
+Malinstalu la malnovan version kaj instalu la novan version.
+
+---
+
+Ĉi tiu paĝo enhavas aŭtomate tradukitan tekston
+
+---
+
+[← Reen](./README.eo.md)

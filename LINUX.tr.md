@@ -1,25 +1,25 @@
-# Installing on Linux
+# Linux'ta kurulum
 
-Translation: [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [türkçe](LINUX.tr.md), [български](LINUX.bg.md)
+Tercüme: [english](LINUX.md), [esperanto](LINUX.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](LINUX.eo_shaw.md), [中文](LINUX.zh-CN.md), [español](LINUX.es.md), [العربية](LINUX.ar.md), [português](LINUX.pt.md), [русский](LINUX.ru.md), [bahasa](LINUX.id.md), [български](LINUX.bg.md)
 
 ---
 
-I am not an expert in installing keyboard layouts, these instructions may not work for all Linux users.
+Klavye düzenlerini kurma konusunda uzman değilim; bu talimatlar tüm Linux kullanıcıları için işe yaramayabilir.
 
-## Follow these instructions
+## Bu talimatları izleyin
 
 ### QWERTY
 
-**1.** First, backup some files by running these commands:
+**1.** Öncelikle bu komutları çalıştırarak bazı dosyaları yedekleyin:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+Bir hata alırsanız, önce şu komutu çalıştırın: `su -l root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** Açık dosya `/usr/share/X11/xkb/symbols/epo` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 
 ```
 // github.com/salif/shaw-eo
@@ -65,7 +65,7 @@ xkb_symbols "shaw_eo" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağıdaki metin bloğunu ekleyin `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -76,33 +76,33 @@ xkb_symbols "shaw_eo" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian)` via the settings of your desktop environment.
+**4.** Sonra Ekle `Esperanto (Shavian)` masaüstü ortamınızın ayarları aracılığıyla.
 
-#### Uninstalling
+#### Kaldırma
 
-To uninstall restore the old files or undo everything you did:
+Kaldırmak için eski dosyaları geri yükleyin veya yaptığınız her şeyi geri alın:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### Güncelleniyor
 
-Uninstall the old version and install the new version.
+Eski sürümü kaldırın ve yeni sürümü yükleyin.
 
 ### Colemak
 
-**1.** First, backup some files by running these commands:
+**1.** Öncelikle bu komutları çalıştırarak bazı dosyaları yedekleyin:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+Bir hata alırsanız, önce şu komutu çalıştırın: `su -l root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
 
-**2.** Open file `/usr/share/X11/xkb/symbols/epo` and append the following text block at the end of the file:
+**2.** Açık dosya `/usr/share/X11/xkb/symbols/epo` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 
 ```
 // github.com/salif/shaw-eo
@@ -148,7 +148,7 @@ xkb_symbols "shaw_eo_colemak" {
 };
 ```
 
-**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Esperanto (legacy)`:
+**3.** Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağıdaki metin bloğunu ekleyin `Esperanto (legacy)`:
 
 ```xml
 <variant>
@@ -159,25 +159,25 @@ xkb_symbols "shaw_eo_colemak" {
 </variant>
 ```
 
-**4.** Then add `Esperanto (Shavian Colemak)` via the settings of your desktop environment.
+**4.** Sonra Ekle `Esperanto (Shavian Colemak)` masaüstü ortamınızın ayarları aracılığıyla.
 
-#### Uninstalling
+#### Kaldırma
 
-To uninstall restore the old files or undo everything you did:
+Kaldırmak için eski dosyaları geri yükleyin veya yaptığınız her şeyi geri alın:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/epo.old /usr/share/X11/xkb/symbols/epo
 mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 ```
 
-#### Updating
+#### Güncelleniyor
 
-Uninstall the old version and install the new version.
-
----
-
-This page contains automatically translated text
+Eski sürümü kaldırın ve yeni sürümü yükleyin.
 
 ---
 
-[← Back](./README.md)
+Bu sayfa otomatik olarak çevrilmiş metin içermektedir
+
+---
+
+[← Geri](./README.tr.md)

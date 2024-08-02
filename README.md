@@ -1,54 +1,54 @@
-# Esperanto (Shavian) keyboard layout
+# Esperanto Shavian keyboard layout
 
-In other languages: [Esperanto](README.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](README.eo_shaw.md)
-
----
+Translation: [esperanto](README.eo.md), [𐑖𐑨𐑝𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩](README.eo_shaw.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [português](README.pt.md), [русский](README.ru.md), [bahasa](README.id.md), [türkçe](README.tr.md), [български](README.bg.md)
 
 ### QWERTY
 
-![preview esperanto shavian qwerty](./media/preview_qwerty.png)
+![Preview the Esperanto Shavian QWERTY](./media/preview_qwerty.png)
 
 ### Colemak
 
-![preview esperanto shavian colemak](./media/preview_colemak.png)
+![Preview the Esperanto Shavian Colemak](./media/preview_colemak.png)
+
+This is my attempt to make keyboard layouts based on QWERTY and Colemak, adapted for the Esperanto Shavian alphabet.
 
 ## Links
 
-* Homepage: [salif.github.io/shaw_eo](https://salif.github.io/shaw_eo/)
-* Source code: [github.com/salif/shaw_eo](https://github.com/salif/shaw_eo)
-* Source code: [codeberg.org/salif/shaw_eo](https://codeberg.org/salif/shaw_eo)
-* Issues (Github): [github.com/salif/shaw_eo/issues](https://github.com/salif/shaw_eo/issues)
-* Issues (Codeberg): [codeberg.org/salif/shaw_eo/issues](https://codeberg.org/salif/shaw_eo/issues)
-* Chat (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* [Homepage](https://salif.github.io/shaw-eo/)
+* [Source code](https://codeberg.org/salif/shaw-eo)
+* [Discussions (Github)](https://github.com/salif/shaw-eo/discussions)
+* [Chat room (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
 
 ## Installing
 
-### Install on Linux
+### Installing on Linux
 
 #### QWERTY
 
-See [LINUX.md](./LINUX.md#qwerty) for QWERTY
+See this page: [LINUX.md#qwerty](./LINUX.md#qwerty)
 
 #### Colemak
 
-See [LINUX.md](./LINUX.md#colemak) for Colemak
+See this page: [LINUX.md#colemak](./LINUX.md#colemak)
+
+### Installing on other operating systems
+
+I can't help you, try to find a way to install on your OS yourself.
 
 ## Contributing
 
-### Report a bug
+If you find a bug or want to suggest an improvement, feel free to share it on [Codeberg] or [Github], or submit a pull request.
 
-Check [the list of open issues](#links) to see if your bug has already been reported.
+[Github]: https://github.com/salif/shaw-eo/discussions
+[Codeberg]: https://codeberg.org/salif/shaw-eo/issues
 
-If it hasn't, submit a new issue.
+## Other keyboard layouts
 
-### Suggest a feature
+* [For Esperanto language](https://salif.github.io/colemak-eo/)
+* [For Russian language](https://salif.github.io/colemak-ru/)
+* [For Turkish language](https://salif.github.io/colemak-tr/)
+* [For Bulgarian language](https://salif.github.io/colemak-bg/)
 
-[Open an issue](#links) which describes the feature.
+---
 
-### Code
-
-I accept pull requests at Github and Codeberg.
-
-## License
-
-See [LICENSE](./LICENSE).
+This page contains automatically translated text
