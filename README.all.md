@@ -45,7 +45,6 @@
 ## „:Other keyboard layouts“
 
 * [„:For Esperanto language“](https://salif.github.io/colemak-eo/)
-* [„:For Russian language“](https://salif.github.io/colemak-ru/)
 * [„:For Turkish language“](https://salif.github.io/colemak-tr/)
 * [„:For Bulgarian language“](https://salif.github.io/colemak-bg/)
 

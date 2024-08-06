@@ -4,11 +4,11 @@
 
 ### QWERTY
 
-![Визуализирайте QWERTY на есперанто Shavian](./media/preview_qwerty.png)
+![Преглед на QWERTY на есперанто Shavian](./media/preview_qwerty.png)
 
 ### Colemak
 
-![Преглед на есперанто Shavian Colemak](./media/preview_colemak.png)
+![Преглед на Colemak на есперанто Shavian](./media/preview_colemak.png)
 
 Това е моят опит да направя клавиатурни подредби, базирани на QWERTY и Colemak, адаптирани за есперантската шавианска азбука.
 
@@ -31,13 +31,13 @@
 
 Вижте тази страница: [LINUX.bg.md#colemak](./LINUX.bg.md#colemak)
 
-### Инсталиране на други операционни системи
+### Инсталиране в други операционни системи
 
 Не мога да ви помогна, опитайте сами да намерите начин да инсталирате на вашата ОС.
 
 ## Принос
 
-Ако откриете грешка или искате да предложите подобрение, не се колебайте да го споделите в [Codeberg] или [Github] или изпратете заявка за изтегляне.
+Ако откриете грешка или искате да предложите подобрение, не се колебайте да го споделите в [Codeberg] или [Github] или изпратете заявка за сливане.
 
 [Github]: https://github.com/salif/shaw-eo/discussions
 [Codeberg]: https://codeberg.org/salif/shaw-eo/issues
@@ -45,7 +45,6 @@
 ## Други клавиатурни подредби
 
 * [За езика есперанто](https://salif.github.io/colemak-eo/)
-* [За руски език](https://salif.github.io/colemak-ru/)
 * [За турски език](https://salif.github.io/colemak-tr/)
 * [За български език](https://salif.github.io/colemak-bg/)
 

@@ -45,7 +45,6 @@ Bir hata bulursanız veya bir iyileştirme önermek isterseniz, bunu [Codeberg] 
 ## Diğer klavye düzenleri
 
 * [Esperanto dili için](https://salif.github.io/colemak-eo/)
-* [Rus dili için](https://salif.github.io/colemak-ru/)
 * [Türkçe dili için](https://salif.github.io/colemak-tr/)
 * [Bulgar dili için](https://salif.github.io/colemak-bg/)
 

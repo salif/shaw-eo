@@ -45,7 +45,6 @@
 ## 其他键盘布局
 
 * [对于世界语](https://salif.github.io/colemak-eo/)
-* [对于俄语](https://salif.github.io/colemak-ru/)
 * [对于土耳其语](https://salif.github.io/colemak-tr/)
 * [对于保加利亚语](https://salif.github.io/colemak-bg/)
 

@@ -45,7 +45,6 @@
 ## Другие раскладки клавиатуры
 
 * [Для языка эсперанто](https://salif.github.io/colemak-eo/)
-* [Для русского языка](https://salif.github.io/colemak-ru/)
 * [Для турецкого языка](https://salif.github.io/colemak-tr/)
 * [Для болгарского языка](https://salif.github.io/colemak-bg/)
 

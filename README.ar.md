@@ -45,7 +45,6 @@
 ## تخطيطات لوحة المفاتيح الأخرى
 
 * [للغة الاسبرانتو](https://salif.github.io/colemak-eo/)
-* [للغة الروسية](https://salif.github.io/colemak-ru/)
 * [للغة التركية](https://salif.github.io/colemak-tr/)
 * [للغة البلغارية](https://salif.github.io/colemak-bg/)
 

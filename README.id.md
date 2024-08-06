@@ -45,7 +45,6 @@ Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya 
 ## Tata letak keyboard lainnya
 
 * [Untuk bahasa Esperanto](https://salif.github.io/colemak-eo/)
-* [Untuk bahasa Rusia](https://salif.github.io/colemak-ru/)
 * [Untuk bahasa Turki](https://salif.github.io/colemak-tr/)
 * [Untuk bahasa Bulgaria](https://salif.github.io/colemak-bg/)
 

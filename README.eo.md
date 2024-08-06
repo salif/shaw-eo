@@ -45,7 +45,6 @@ Se vi trovas cimon aŭ volas sugesti plibonigon, bonvolu dividi ĝin ĉe [Codebe
 ## Aliaj klavaraj aranĝoj
 
 * [Por Esperanto-lingvo](https://salif.github.io/colemak-eo/)
-* [Por rusa lingvo](https://salif.github.io/colemak-ru/)
 * [Por turka lingvo](https://salif.github.io/colemak-tr/)
 * [Por bulgara lingvo](https://salif.github.io/colemak-bg/)
 

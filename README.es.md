@@ -45,7 +45,6 @@ Si encuentra un error o desea sugerir una mejora, no dude en compartirlo en [Cod
 ## Otras distribuciones de teclado
 
 * [Para el idioma esperanto](https://salif.github.io/colemak-eo/)
-* [Para idioma ruso](https://salif.github.io/colemak-ru/)
 * [Para idioma turco](https://salif.github.io/colemak-tr/)
 * [Para idioma búlgaro](https://salif.github.io/colemak-bg/)
 
