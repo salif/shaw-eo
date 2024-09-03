@@ -22,7 +22,8 @@ Jika Anda mendapatkan kesalahan, jalankan perintah ini terlebih dahulu: `su root
 **2.** Membuka file `/usr/share/X11/xkb/symbols/epo` dan tambahkan blok teks berikut di akhir file:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Copot pemasangan versi lama dan pasang versi baru.
 
+Perubahan yang Anda buat pada file di direktori `/usr/share/X11/xkb` akan hilang ketika paket yang memiliki direktori tersebut diperbarui, misalnya di Arch Linux paket ini disebut `xkeyboard-config`. Anda harus melakukan perubahan yang sama setiap kali memperbarui paket ini atau mematikan pembaruan untuk paket ini. Anda juga memiliki opsi untuk membuat paket khusus yang berisi perubahan ini dan menggantikan paket asli.
+
 ### Colemak
 
 **1.** Pertama, buat cadangan beberapa file dengan menjalankan perintah ini:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Jika Anda mendapatkan kesalahan, jalankan perintah ini terlebih dahulu: `su -l root`, lalu coba jalankan kembali perintahnya, atau ganti `cp` dengan `sudo cp`.
+Jika Anda mendapatkan kesalahan, jalankan perintah ini terlebih dahulu: `su root`, lalu coba jalankan kembali perintahnya, atau ganti `cp` dengan `sudo cp`.
 
 **2.** Membuka file `/usr/share/X11/xkb/symbols/epo` dan tambahkan blok teks berikut di akhir file:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Copot pemasangan versi lama dan pasang versi baru.
 
----
-
-Halaman ini berisi teks yang diterjemahkan secara otomatis
+Perubahan yang Anda buat pada file di direktori `/usr/share/X11/xkb` akan hilang ketika paket yang memiliki direktori tersebut diperbarui, misalnya di Arch Linux paket ini disebut `xkeyboard-config`. Anda harus melakukan perubahan yang sama setiap kali memperbarui paket ini atau mematikan pembaruan untuk paket ini. Anda juga memiliki opsi untuk membuat paket khusus yang berisi perubahan ini dan menggantikan paket asli.
 
 ---
 

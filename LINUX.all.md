@@ -22,7 +22,8 @@ cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 **2.** „:Open file“ `/usr/share/X11/xkb/symbols/epo` „:and append the following text block at the end of the file“:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 „:Uninstall the old version and install the new version“.
 
+„:Changes you make to files in the `/usr/share/X11/xkb` directory will be lost when the package owning that directory is updated, for example on Arch Linux this package is called `xkeyboard-config`. You must either make the same changes every time you update this package or turn off updates for this package. You also have the option to make a custom package that contains these changes and replaces the original package“.
+
 ### Colemak
 
 **1.** „:First, backup some files by running these commands“:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-„:If you get an error, first run this command:“ `su -l root`, „:then try running the commands again, or replace `cp` with `sudo cp`“.
+„:If you get an error, first run this command:“ `su root`, „:then try running the commands again, or replace `cp` with `sudo cp`“.
 
 **2.** „:Open file“ `/usr/share/X11/xkb/symbols/epo` „:and append the following text block at the end of the file“:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 „:Uninstall the old version and install the new version“.
 
----
-
-„:This page contains automatically translated text“
+„:Changes you make to files in the `/usr/share/X11/xkb` directory will be lost when the package owning that directory is updated, for example on Arch Linux this package is called `xkeyboard-config`. You must either make the same changes every time you update this package or turn off updates for this package. You also have the option to make a custom package that contains these changes and replaces the original package“.
 
 ---
 

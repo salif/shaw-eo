@@ -47,7 +47,3 @@ If you find a bug or want to suggest an improvement, feel free to share it on [C
 * [For Esperanto language](https://salif.github.io/colemak-eo/)
 * [For Turkish language](https://salif.github.io/colemak-tr/)
 * [For Bulgarian language](https://salif.github.io/colemak-bg/)
-
----
-
-This page contains automatically translated text

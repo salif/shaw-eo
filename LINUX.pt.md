@@ -22,7 +22,8 @@ Se você receber um erro, primeiro execute este comando: `su root`, tente execut
 **2.** Abrir arquivo `/usr/share/X11/xkb/symbols/epo` e anexe o seguinte bloco de texto no final do arquivo:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Desinstale a versão antiga e instale a nova versão.
 
+As alterações feitas nos arquivos no diretório `/usr/share/X11/xkb` serão perdidas quando o pacote que possui esse diretório for atualizado, por exemplo, no Arch Linux este pacote é chamado `xkeyboard-config`. Você deve fazer as mesmas alterações sempre que atualizar este pacote ou desativar as atualizações deste pacote. Você também tem a opção de criar um pacote personalizado que contenha essas alterações e substitua o pacote original.
+
 ### Colemak
 
 **1.** Primeiro, faça backup de alguns arquivos executando estes comandos:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Se você receber um erro, primeiro execute este comando: `su -l root`, tente executar os comandos novamente ou substitua `cp` por `sudo cp`.
+Se você receber um erro, primeiro execute este comando: `su root`, tente executar os comandos novamente ou substitua `cp` por `sudo cp`.
 
 **2.** Abrir arquivo `/usr/share/X11/xkb/symbols/epo` e anexe o seguinte bloco de texto no final do arquivo:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Desinstale a versão antiga e instale a nova versão.
 
----
-
-Esta página contém texto traduzido automaticamente
+As alterações feitas nos arquivos no diretório `/usr/share/X11/xkb` serão perdidas quando o pacote que possui esse diretório for atualizado, por exemplo, no Arch Linux este pacote é chamado `xkeyboard-config`. Você deve fazer as mesmas alterações sempre que atualizar este pacote ou desativar as atualizações deste pacote. Você também tem a opção de criar um pacote personalizado que contenha essas alterações e substitua o pacote original.
 
 ---
 

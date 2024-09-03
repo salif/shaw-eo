@@ -47,7 +47,3 @@
 * [За езика есперанто](https://salif.github.io/colemak-eo/)
 * [За турски език](https://salif.github.io/colemak-tr/)
 * [За български език](https://salif.github.io/colemak-bg/)
-
----
-
-Тази страница съдържа автоматично преведен текст

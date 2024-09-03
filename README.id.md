@@ -47,7 +47,3 @@ Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya 
 * [Untuk bahasa Esperanto](https://salif.github.io/colemak-eo/)
 * [Untuk bahasa Turki](https://salif.github.io/colemak-tr/)
 * [Untuk bahasa Bulgaria](https://salif.github.io/colemak-bg/)
-
----
-
-Halaman ini berisi teks yang diterjemahkan secara otomatis

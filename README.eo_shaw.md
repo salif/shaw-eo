@@ -12,7 +12,7 @@
 
 𐑢𐑧𐑵 𐑫𐑦𐑨 𐑐𐑮𐑩𐑝𐑩 𐑓𐑨𐑮𐑦 𐑒𐑤𐑨𐑝𐑨𐑮𐑨𐑵 𐑨𐑮𐑨𐑵𐑡𐑩𐑢𐑵 𐑚𐑨𐑟𐑦𐑑𐑨𐑢𐑵 𐑕𐑪𐑮 QWERTY 𐑒𐑨𐑢 Colemak, 𐑨𐑛𐑨𐑐𐑑𐑦𐑑𐑨𐑢𐑵 𐑐𐑩𐑮 𐑤𐑨 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑨 𐑖𐑨𐑝𐑨 𐑨𐑤𐑓𐑨𐑚𐑧𐑑𐑩.
 
-## Ligiloj
+## 𐑤𐑦𐑜𐑦𐑤𐑩𐑢
 
 * [𐑣𐑧𐑢𐑫𐑐𐑨𐑡𐑩](https://salif.github.io/shaw-eo/)
 * [𐑓𐑩𐑵𐑑𐑒𐑩𐑛𐑩](https://codeberg.org/salif/shaw-eo)
@@ -47,7 +47,3 @@
 * [𐑐𐑩𐑮 𐑧𐑕𐑐𐑧𐑮𐑨𐑵𐑑𐑩-𐑤𐑦𐑵𐑜𐑝𐑩](https://salif.github.io/colemak-eo/)
 * [𐑐𐑩𐑮 𐑑𐑪𐑮𐑒𐑨 𐑤𐑦𐑵𐑜𐑝𐑩](https://salif.github.io/colemak-tr/)
 * [𐑐𐑩𐑮 𐑚𐑪𐑤𐑜𐑨𐑮𐑨 𐑤𐑦𐑵𐑜𐑝𐑩](https://salif.github.io/colemak-bg/)
-
----
-
-𐑗𐑦 𐑑𐑦𐑪 𐑐𐑨𐑡𐑩 𐑧𐑵𐑣𐑨𐑝𐑨𐑕 𐑨𐑘𐑑𐑩𐑫𐑨𐑑𐑧 𐑑𐑮𐑨𐑛𐑪𐑒𐑦𐑑𐑨𐑵 𐑑𐑧𐑒𐑕𐑑𐑩𐑵

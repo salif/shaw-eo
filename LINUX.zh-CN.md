@@ -22,7 +22,8 @@ cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 **2.** 打开文件 `/usr/share/X11/xkb/symbols/epo` 并将以下文本块附加到文件末尾:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 卸载旧版本并安装新版本.
 
+当拥有该目录的软件包更新时，您对“/usr/share/X11/xkb”目录中的文件所做的更改将会丢失，例如在 Arch Linux 上，该软件包称为“xkeyboard-config”。您必须在每次更新此软件包时进行相同的更改，或者关闭此软件包的更新。您还可以选择制作包含这些更改的自定义包并替换原始包.
+
 ### Colemak
 
 **1.** 首先，通过运行这些命令备份一些文件:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-如果出现错误，请首先运行以下命令： `su -l root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
+如果出现错误，请首先运行以下命令： `su root`, 然后尝试再次运行命令，或将“cp”替换为“sudo cp”.
 
 **2.** 打开文件 `/usr/share/X11/xkb/symbols/epo` 并将以下文本块附加到文件末尾:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 卸载旧版本并安装新版本.
 
----
-
-此页面包含自动翻译的文本
+当拥有该目录的软件包更新时，您对“/usr/share/X11/xkb”目录中的文件所做的更改将会丢失，例如在 Arch Linux 上，该软件包称为“xkeyboard-config”。您必须在每次更新此软件包时进行相同的更改，或者关闭此软件包的更新。您还可以选择制作包含这些更改的自定义包并替换原始包.
 
 ---
 

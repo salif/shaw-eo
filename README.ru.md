@@ -47,7 +47,3 @@
 * [Для языка эсперанто](https://salif.github.io/colemak-eo/)
 * [Для турецкого языка](https://salif.github.io/colemak-tr/)
 * [Для болгарского языка](https://salif.github.io/colemak-bg/)
-
----
-
-Эта страница содержит автоматически переведенный текст

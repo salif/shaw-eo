@@ -22,7 +22,8 @@ Bir hata alırsanız, önce şu komutu çalıştırın: `su root`, daha sonra ko
 **2.** Açık dosya `/usr/share/X11/xkb/symbols/epo` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Eski sürümü kaldırın ve yeni sürümü yükleyin.
 
+`/usr/share/X11/xkb` dizinindeki dosyalarda yaptığınız değişiklikler, o dizine sahip olan paket güncellendiğinde kaybolacaktır; örneğin Arch Linux'ta bu pakete `xkeyboard-config` adı verilir. Bu paketi her güncellediğinizde aynı değişiklikleri yapmanız veya bu pakete ilişkin güncellemeleri kapatmanız gerekir. Ayrıca bu değişiklikleri içeren ve orijinal paketin yerine geçen özel bir paket oluşturma seçeneğiniz de vardır.
+
 ### Colemak
 
 **1.** Öncelikle bu komutları çalıştırarak bazı dosyaları yedekleyin:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Bir hata alırsanız, önce şu komutu çalıştırın: `su -l root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
+Bir hata alırsanız, önce şu komutu çalıştırın: `su root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
 
 **2.** Açık dosya `/usr/share/X11/xkb/symbols/epo` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Eski sürümü kaldırın ve yeni sürümü yükleyin.
 
----
-
-Bu sayfa otomatik olarak çevrilmiş metin içermektedir
+`/usr/share/X11/xkb` dizinindeki dosyalarda yaptığınız değişiklikler, o dizine sahip olan paket güncellendiğinde kaybolacaktır; örneğin Arch Linux'ta bu pakete `xkeyboard-config` adı verilir. Bu paketi her güncellediğinizde aynı değişiklikleri yapmanız veya bu pakete ilişkin güncellemeleri kapatmanız gerekir. Ayrıca bu değişiklikleri içeren ve orijinal paketin yerine geçen özel bir paket oluşturma seçeneğiniz de vardır.
 
 ---
 

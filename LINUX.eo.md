@@ -22,7 +22,8 @@ Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su root`, tiam provu ruli la
 **2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/epo` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Malinstalu la malnovan version kaj instalu la novan version.
 
+Ŝanĝoj, kiujn vi faras al dosieroj en la dosierujo `/usr/share/X11/xkb`, estos perditaj kiam la pakaĵo posedanta tiun dosierujon estas ĝisdatigita, ekzemple ĉe Arch Linukso ĉi tiu pako nomiĝas `xkeyboard-config`. Vi devas aŭ fari la samajn ŝanĝojn ĉiufoje kiam vi ĝisdatigas ĉi tiun pakaĵon aŭ malŝalti ĝisdatigojn por ĉi tiu pako. Vi ankaŭ havas la eblon fari laŭmendan pakaĵon, kiu enhavas ĉi tiujn ŝanĝojn kaj anstataŭigas la originalan pakaĵon.
+
 ### Colemak
 
 **1.** Unue, sekurigu iujn dosierojn rulante ĉi tiujn komandojn:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su -l root`, tiam provu ruli la komandojn denove, aŭ anstataŭigu `cp` per `sudo cp`.
+Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su root`, tiam provu ruli la komandojn denove, aŭ anstataŭigu `cp` per `sudo cp`.
 
 **2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/epo` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Malinstalu la malnovan version kaj instalu la novan version.
 
----
-
-Ĉi tiu paĝo enhavas aŭtomate tradukitan tekston
+Ŝanĝoj, kiujn vi faras al dosieroj en la dosierujo `/usr/share/X11/xkb`, estos perditaj kiam la pakaĵo posedanta tiun dosierujon estas ĝisdatigita, ekzemple ĉe Arch Linukso ĉi tiu pako nomiĝas `xkeyboard-config`. Vi devas aŭ fari la samajn ŝanĝojn ĉiufoje kiam vi ĝisdatigas ĉi tiun pakaĵon aŭ malŝalti ĝisdatigojn por ĉi tiu pako. Vi ankaŭ havas la eblon fari laŭmendan pakaĵon, kiu enhavas ĉi tiujn ŝanĝojn kaj anstataŭigas la originalan pakaĵon.
 
 ---
 

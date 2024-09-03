@@ -22,7 +22,8 @@ Si recibe un error, primero ejecute este comando: `su root`, luego intente ejecu
 **2.** Abrir documento `/usr/share/X11/xkb/symbols/epo` y agregue el siguiente bloque de texto al final del archivo:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo" {
 
@@ -91,6 +92,8 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Desinstale la versión anterior e instale la nueva versión.
 
+Los cambios que realice en los archivos en el directorio `/usr/share/X11/xkb` se perderán cuando se actualice el paquete que posee ese directorio; por ejemplo, en Arch Linux este paquete se llama `xkeyboard-config`. Debe realizar los mismos cambios cada vez que actualice este paquete o desactivar las actualizaciones para este paquete. También tiene la opción de crear un paquete personalizado que contenga estos cambios y reemplace el paquete original.
+
 ### Colemak
 
 **1.** Primero, haga una copia de seguridad de algunos archivos ejecutando estos comandos:
@@ -100,12 +103,13 @@ cp /usr/share/X11/xkb/symbols/epo /usr/share/X11/xkb/symbols/epo.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Si recibe un error, primero ejecute este comando: `su -l root`, luego intente ejecutar los comandos nuevamente o reemplace `cp` con `sudo cp`.
+Si recibe un error, primero ejecute este comando: `su root`, luego intente ejecutar los comandos nuevamente o reemplace `cp` con `sudo cp`.
 
 **2.** Abrir documento `/usr/share/X11/xkb/symbols/epo` y agregue el siguiente bloque de texto al final del archivo:
 
 ```
-// github.com/salif/shaw-eo
+// homepage: salif.github.io/shaw-eo
+// version: 1
 partial alphanumeric_keys
 xkb_symbols "shaw_eo_colemak" {
 
@@ -174,9 +178,7 @@ mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
 
 Desinstale la versión anterior e instale la nueva versión.
 
----
-
-Esta página contiene texto traducido automáticamente
+Los cambios que realice en los archivos en el directorio `/usr/share/X11/xkb` se perderán cuando se actualice el paquete que posee ese directorio; por ejemplo, en Arch Linux este paquete se llama `xkeyboard-config`. Debe realizar los mismos cambios cada vez que actualice este paquete o desactivar las actualizaciones para este paquete. También tiene la opción de crear un paquete personalizado que contenga estos cambios y reemplace el paquete original.
 
 ---
 
